@@ -14,14 +14,14 @@
     },
     "extra": {
         "laravel": {
-            "providers": {
-            "Smile00112\\TestPackage\\": "src"
-            }
+            "providers": [
+                "Smile00112\\TestPackage\\Providers\\TestPackageServiceProvider"
+            ]
         }
     },
     "autoload": {
         "psr-4": {
-            "Smile00112\\TestPackage\\" : "packages/smile00112/test-package/src"
+            "Smile00112\\TestPackage\\" : "src"
         }
     }
 }

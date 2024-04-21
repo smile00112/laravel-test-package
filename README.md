@@ -16,6 +16,7 @@ php artisan vendor:publish и выбрать провайдера (Smile00112\Te
 или
 php artisan vendor:publish --provider='Smile00112\TestPackage\Providers\TestPackageServiceProvider'
 ### autoload
+В composer.json пакета добавить секцию extra из доков с подключением сервис провайдера пакета
 В composer.json пакета добавить секцию autoload из провекта с подключением папки src
 В composer.json проекта убрать из autoload подключение сервис провайдера пакета (перед публикацией)
 ### git
