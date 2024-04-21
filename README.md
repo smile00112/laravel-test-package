@@ -18,8 +18,13 @@ php artisan vendor:publish --provider='Smile00112\TestPackage\Providers\TestPack
 ### autoload
 В composer.json пакета добавить секцию autoload из провекта с подключением папки src
 В composer.json проекта убрать из autoload подключение сервис провайдера пакета (перед публикацией)
-
-
+### git
+Заливаем на гит, создаём релиз
+### packagist
+в submit добавить ссылку с гита на пакет и получаем команду на установку 
+composer require smile00112/test-package
+для автообновления пакета, надо добавить github Hook. Для этого в настройках пакета добавить новый хук с данными 
+из packagist
 
 ### *Инструкция*
 https://www.youtube.com/watch?v=-QCOvRVUoYM

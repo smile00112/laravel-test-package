@@ -1,6 +1,6 @@
 {
     "name": "smile00112/test-package",
-    "description": "import data from spreadsheets-data-import to db",
+    "description": "laravel package template",
     "minimum-stability": "stable",
     "license": "MIT",
     "authors": [
