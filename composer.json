@@ -1,0 +1,27 @@
+{
+    "name": "smile00112/test-package",
+    "description": "import data from spreadsheets-data-import to db",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "smile00112",
+            "email": "ooo.smile2000@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": {
+            "Smile00112\\TestPackage\\": "src"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Smile00112\\TestPackage\\" : "packages/smile00112/test-package/src"
+        }
+    }
+}
